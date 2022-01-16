@@ -1,0 +1,10 @@
+.notFoundParentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+}
+
+.notFoundParentContainer h1 {
+  text-align: center;
+}

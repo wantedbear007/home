@@ -1,0 +1,77 @@
+.homeParentContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+.nameContainer {
+  width: 40%;
+}
+.name {
+  font-size: 60px;
+  color: #3772ff;
+}
+.slogan {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.designation {
+  text-align: end;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.buttonContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+}
+.resumeButton {
+  background-color: transparent;
+}
+
+.resumeButton:hover {
+  background-color: #3772ff;
+  color: white;
+  transition: all 0.3s linear;
+  border-style: none;
+  border: 2px solid;
+}
+
+.resumeButton:active {
+  background-color: #0d49d4;
+}
+
+.projectsButton {
+  background-color: #3772ff;
+  color: white;
+  border-color: #ccedff;
+}
+
+.projectsButton:hover {
+    border: 2px solid #000;
+}
+
+.projectsButton:active {
+  background-color: #0d49d4;
+}
+
+.resumeButton,
+.projectsButton {
+  font-size: 24px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+.imageContainer {
+}
+.image {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  margin: 0 30px;
+}
