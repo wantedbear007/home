@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #ccedff;
+  align-items: center;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+.home,
+.about,
+.skills,
+.blog,
+.contact {
+  text-decoration: none;
+}
+.active li {
+  background-color: #3772ff;
+  border-radius: 20px;
+  color: white;
+}
+
+.buttonText {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  color: #343434;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.buttonText:hover {
+  border-radius: 20px;
+  text-decoration: underline;
+  text-decoration-color: #3772ff;
+  text-decoration-thickness: 3px;
+  transition: all 0.5s linear;
+}
+
+.mobile-nav-button {
+  display: none;
+}
+
+.pageNumber {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+  .parentContainer {
+    height: 70px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .pageNumber {
+    position: absolute;
+    left: 40;
+    top: 10;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .mobile-nav-button {
+    display: inline;
+    background-color: transparent;
+    border: none;
+  }
+  .mobile-nav {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #ccedff;
+    left: 0px;
+    top: 75px;
+    transition: all 0.5s ease-in;
+    width: 100%;
+  }
+  .buttonText {
+    font-size: 25px;
+    color: #343434;
+    text-align: center;
+    padding: 22px;
+    width: 100%;
+    transition: all 0.5s linear;
+  }
+  .buttonIcon {
+    font-size: 30px;
+    background-color: none;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+}
