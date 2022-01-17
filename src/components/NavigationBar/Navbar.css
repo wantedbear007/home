@@ -94,7 +94,7 @@
     width: 100%;
   }
   .buttonText {
-    font-size: 25px;
+    font-size: 20px;
     color: #343434;
     text-align: center;
     padding: 22px;
@@ -108,4 +108,5 @@
     right: 10px;
     top: 20px;
   }
+
 }
