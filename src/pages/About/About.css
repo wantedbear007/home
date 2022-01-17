@@ -10,7 +10,7 @@
   flex: 1;
 }
 .text {
-  font-size: 55px;
+  font-size: 75px;
   color: #3772ff;
   letter-spacing: 2px;
   text-align: center;
@@ -44,4 +44,69 @@
 .learnMoreButton:active {
   transform: scale(0.99);
   background-color: #0d49d4;
+}
+
+@media screen and (max-width: 1250px) {
+  .text {
+    font-size: 70px;
+  }
+  .paragraphContainer {
+    padding: 50px 30px;
+  }
+  .paragraph {
+    font-size: 32px;
+    word-spacing: 3px;
+  }
+  .learnMoreButton {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .aboutParentContainer {
+    justify-content: space-evenly;
+  }
+
+  .text {
+    margin-top: 140px;
+    font-size: 90px;
+  }
+  .paragraphContainer {
+    padding: 70px 70px;
+    border-radius: 35px;
+  }
+  .paragraph {
+    font-size: 28px;
+    word-spacing: 5px;
+  }
+  .learnMoreButton {
+    font-size: 18px;
+    border-style: none;
+    margin-top: 30px;
+    background-color: #3772ff;
+    color: white;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text {
+    margin-top: 90px;
+    font-size: 50px;
+  }
+  .paragraphContainer {
+    padding: 24px 10px;
+    border-radius: 25px;
+    width: 95%;
+  }
+  .paragraph {
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+  .learnMoreButton {
+    font-size: 14px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
 }
