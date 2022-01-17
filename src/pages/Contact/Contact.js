@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
-    return (
-        <div>
-        <h1>Contact page. </h1>
-            
-        </div>
-    )
-}
+  return (
+    <div className="contactParentContainer">
+      <h1 className="contactText">Contact</h1>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

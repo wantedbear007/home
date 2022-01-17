@@ -22,13 +22,12 @@
   width: 75%;
 }
 
-.home,
-.about,
-.skills,
-.blog,
-.contact {
+
+.tabText {
   text-decoration: none;
 }
+
+
 .active li {
   background-color: #3772ff;
   border-radius: 20px;
@@ -110,4 +109,12 @@
     top: 20px;
   }
 
+}
+
+.betaTag {
+  background-color: #3772ff;
+  color: #fff;
+  text-align: center;
+  padding: 4px 0px;
+  border-radius: 10px;
 }

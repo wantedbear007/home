@@ -8,6 +8,7 @@ import About from "../../pages/About/About";
 import Skills from "../../pages/Skills/Skills";
 import Blogs from "../../pages/Blogs/Blogs";
 import Contact from "../../pages/Contact/Contact";
+import Projects from "../../pages/Projects/Projects";
 import  NotFound from "../../pages/NotFound/NotFound";
 
 const Navigation = () => {
@@ -22,6 +23,8 @@ const Navigation = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
