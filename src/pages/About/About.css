@@ -1,0 +1,47 @@
+.aboutParentContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  flex: 1;
+}
+.text {
+  font-size: 55px;
+  color: #3772ff;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.paragraphContainer {
+  background-color: #d7f1ff;
+  width: 75%;
+  margin-right: 0;
+  padding: 120px 150px;
+  border-radius: 45px 0px 0px 45px;
+  border-top-left-radius: 45px;
+}
+.paragraph {
+  font-size: 28px;
+  word-spacing: 5px;
+}
+.learnMoreButton {
+  font-size: 18px;
+  border-style: none;
+  margin-top: 30px;
+  background-color: #3772ff;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.learnMoreButton:hover {
+  box-shadow: 0px 0px 7px rgb(80, 79, 79);
+}
+
+.learnMoreButton:active {
+  transform: scale(0.99);
+  background-color: #0d49d4;
+}

@@ -12,12 +12,12 @@ const Home = () => {
         </p>
         <p className="designation">Front-end / UI / UX developer.</p>
         <div className="buttonContainer">
-            <button className="resumeButton">resume</button>
-            <button className="projectsButton">Projects</button>
+          <button className="resumeButton">resume</button>
+          <button className="projectsButton">Projects</button>
         </div>
       </div>
-      <div className="imageContainer">
-          <img src={require('../../assets/Images/60111.jpg')} className="image" />
+      <div>
+        <img alt="User" src={require("../../assets/Images/60111.jpg")} className="image" />
       </div>
     </div>
   );
