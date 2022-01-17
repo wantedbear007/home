@@ -15,87 +15,51 @@ const Skills = () => {
       <div className="detailsContainer">
         <Fade bottom>
           <div className="cardContainer">
-            <div className="languageContainer">
-              <div className="languageTitleContainer">
-                <p className="languageTitle">Languages</p>
+            <div className="titleSection">
+              <div className="cardTitleContainer">
+                <p className="cardTitles">Languages</p>
               </div>
-              <div className="languageIconContainer">
-                <h2 className="icon">
+              <div className="iconContainer">
+                <h2>
                   <BsCodeSlash />
                 </h2>
               </div>
             </div>
             <ul className="listItems">
-              <li>
-                <p className="languages">Hyper Text Markup Language(HTML)</p>
-              </li>
-              <li>
-                <p className="languages">Cascading StyleSheet(CSS)</p>
-              </li>
-              <li>
-                <p className="languages">Javascript</p>
-              </li>
-              <li>
-                <p className="languages">React.JS</p>
-              </li>
-              <li>
-                <p className="languages">React Native</p>
-              </li>
+              <li>Hyper Text Markup Language(HTML)</li>
+              <li>Cascading StyleSheet(CSS)</li>
+              <li>Javascript</li>
+              <li>React.JS</li>
+              <li>React Native</li>
             </ul>
           </div>
         </Fade>
         <Fade bottom>
           <div className="cardContainer">
-            <div className="technologiesContainer">
-              <div className="technologiesTitleContainer">
-                <p className="technologiesTitle">Technologies</p>
+            <div className="titleSection">
+              <div className="cardTitleContainer">
+                <p className="cardTitles">Technologies</p>
               </div>
               <div>
-                <div className="technologiesIconContainer">
-                  <h2 className="icon">
-                    <ImDisplay className="icon" />
+                <div className="iconContainer">
+                  <h2>
+                    <ImDisplay />
                   </h2>
                 </div>
               </div>
             </div>
             <ul className="listItems">
-              <li>
-                <p className="technologies">Adobe Photoshop</p>
-              </li>
-              <li>
-                <p className="technologies">Adobe XD</p>
-              </li>
-              <li>
-                <p className="technologies">Figma</p>
-              </li>
-              <li>
-                <p className="technologies">Git / Github</p>
-              </li>
-              <li>
-                <p className="technologies">Shell scripting</p>
-              </li>
-              <li>
-                <p className="technologies">Visual Studio code</p>
-              </li>
-              <li>
-                <p className="technologies">
-                  Microsoft Office / Excel / Powerpoint
-                </p>
-              </li>
-              <li>
-                <p className="technologies">
-                  Application programming Interface(API)
-                </p>
-              </li>
-              <li>
-                <p className="technologies">Debian / Linux</p>
-              </li>
-              <li>
-                <p className="technologies">Microsoft Windows</p>
-              </li>
-              <li>
-                <p className="technologies">VmWare / VirtualBox</p>
-              </li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+              <li>Git / Github</li>
+              <li>Shell scripting</li>
+              <li>Visual Studio code</li>
+              <li>Microsoft Office / Excel / Powerpoint</li>
+              <li>Application programming Interface(API)</li>
+              <li>Debian / Linux</li>
+              <li>Microsoft Windows</li>
+              <li>VmWare / VirtualBox</li>
             </ul>
           </div>
         </Fade>
