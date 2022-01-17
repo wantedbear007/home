@@ -1,0 +1,76 @@
+.skillsParentContainer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titleContainer {
+    flex: 1;
+
+}
+.title {
+    font-size: 75px;
+    color: #3772ff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.detailsContainer {
+    background-color: #d7f1ff;
+    width: 75%;
+    display: flex;
+    padding: 90px 140px;
+    border-radius: 45px 0px 0px 45px;
+    border-top-left-radius: 45px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.languageContainer, .technologiesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.cardContainer {
+    background-color:  #B5E5FF;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+.languageTitleContainer {
+
+
+}
+.languageTitle, .technologiesTitle {
+    font-weight: 700;
+    font-size: 28px;
+}
+.languageIconContainer, .technologiesIconContainer {
+ background-color: #3772FF;
+ border-radius: 50%;
+ 
+}
+.languages {
+
+}
+.technologiesContainer {
+
+}
+.technologiesTitleContainer {
+
+}
+.technologiesTitle {
+
+}
+.technologiesIconContainer {
+
+}
+.technologies {
+
+}
+.listItems {
+
+}
+.icon {
+    font-weight: 700;
+}
