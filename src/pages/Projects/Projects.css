@@ -1,7 +1,260 @@
 .projectParentContainer {
-    display: flex;
-    height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projectParentContainer,
+.projectContainer,
+.projectTitleContainer,
+.contentContainer,
+.leftProjectParagraphContainer {
+  display: flex;
+}
+
+.titleText {
+  margin-top: 200px;
+  font-size: 75px;
+  color: #3772ff;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.projectContainer {
+  position: relative;
+  padding: 120px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectTitleContainer {
+  width: 90%;
+  align-items: flex-start;
+}
+.projectTitle {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.contentContainer {
+  background-color: #d7f1ff;
+  padding: 50px 30px;
+  border-radius: 30px;
+  flex-direction: row;
+  width: 80vw;
+  height: 20vw;
+}
+
+.detailsParagraph {
+  font-size: 25px;
+  width: 70%;
+}
+
+.appImage {
+  right: 200px;
+}
+
+.appImage,
+.leftAppImage {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+.leftAppImage {
+  left: 200px;
+}
+
+.leftContentContainer {
+  background-color: #d7f1ff;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  width: 80vw;
+  height: 20vw;
+}
+
+.leftProjectParagraphContainer {
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.leftProjectTitle {
+  margin-left: 30%;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+/* FOR MOBILE AND TABLET DEVICES  */
+
+@media screen and (max-width: 1320px) {
+  .projectParentContainer {
+    flex: 1;
+    width: 100vw;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-direction: column;
   }
+
+  .titleText {
+    margin-top: 170px;
+    font-size: 85px;
+    margin-bottom: 90px;
+  }
+
+  .projectContainer {
+    /* padding: 80px; */
+  }
+  .projectTitleContainer {
+    width: 80%;
+  }
+  .projectTitle,
+  .leftProjectTitle {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .contentContainer,
+  .leftContentContainer {
+    padding: 35px 25px;
+    width: 90vw;
+    height: 25vw;
+  }
+
+  .detailsParagraph {
+    font-size: 27px;
+    width: 75%;
+  }
+
+  .appImage {
+    right: 150px;
+  }
+
+  .appImage,
+  .leftAppImage {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  .leftAppImage {
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .projectParentContainer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .titleText {
+    margin-top: 160px;
+    font-size: 70px;
+    margin-bottom: 100px;
+  }
+
+  .projectContainer {
+    padding: 50px 20px;
+  }
+
+  .projectTitle,
+  .leftProjectTitle {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .contentContainer,
+  .leftContentContainer {
+    padding: 30px 20px;
+    border-radius: 30px;
+    flex-direction: row;
+    width: 90vw;
+    height: 43vw;
+  }
+
+  .detailsParagraph {
+    font-size: 27px;
+    width: 70%;
+  }
+
+  .appImage {
+    right: 40px;
+  }
+
+  .appImage,
+  .leftAppImage {
+    height: 400px;
+  }
+
+  .leftAppImage {
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .titleText {
+    font-size: 50px;
+  }
+
+  .projectParentContainer {
+    margin-bottom: 100px;
+  }
+
+
+  .projectContainer {
+    padding: 20px 5px;
+    background-color: #d7f1ff;
+    border-radius: 18px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110);
+  }
+
+  .projectTitle,
+  .leftProjectTitle {
+    font-size: 27px;
+    margin-bottom: 0px;
+  }
+  .contentContainer,
+  .leftContentContainer {
+    padding: none;
+    border-radius: none;
+    flex-direction: row;
+    width: 90vw;
+    height: 80vw;
+  }
+
+  .detailsParagraph {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .appImage {
+    right: 0px;
+  }
+
+  .appImage,
+  .leftAppImage {
+    height: 400px;
+    position: relative;
+    align-items: center;
+  }
+
+  .leftAppImage {
+    left: 0px;
+  }
+
+  .leftProjectTitle {
+    margin-left: 0px;
+  }
+  
+  .leftProjectParagraphContainer {
+    align-items: flex-start;
+  }
+}
