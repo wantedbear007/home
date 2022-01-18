@@ -16,7 +16,6 @@
   color: #3772ff;
   letter-spacing: 2px;
   text-align: center;
-  
 }
 .paragraphContainer {
   background-color: #d7f1ff;
@@ -97,8 +96,11 @@
   .text {
     margin-top: 80px;
     font-size: 50px;
+    text-align: center;
   }
   .textContainer {
+    width: 100%;
+    padding: 0px;
     justify-content: center;
     align-items: center;
   }

@@ -1,0 +1,8 @@
+.blogsParentContainer {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
