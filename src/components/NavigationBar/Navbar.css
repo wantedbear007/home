@@ -22,11 +22,9 @@
   width: 75%;
 }
 
-
 .tabText {
   text-decoration: none;
 }
-
 
 .active li {
   background-color: #3772ff;
@@ -62,59 +60,62 @@
   font-size: 30px;
   letter-spacing: 5px;
 }
+.betaSection {
+  display: none;
+}
 
 @media only screen and (max-width: 780px) {
   .parentContainer {
     height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
-  .desktop-nav {
+  .parentContainer,
+  .betaSection {
+    box-shadow: 0px 0px 8px rgb(134, 130, 130);
+    position: fixed;
+    width: 100%;
+  }
+
+  .desktopBetaSection {
     display: none;
   }
-  .pageNumber {
-    position: absolute;
-    left: 40;
-    top: 10;
-    font-size: 30px;
-    letter-spacing: 5px;
+
+  .betaSection {
+    background-color: #ccedff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    align-items: center;
+    z-index: 4000;
   }
 
-  .mobile-nav-button {
-    display: inline;
-    background-color: transparent;
-    border: none;
+  .pageNumber {
+    font-size: 23px;
   }
-  .mobile-nav {
-    position: absolute;
-    display: block;
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    background-color: #ccedff;
-    left: 0px;
-    top: 75px;
-    transition: all 0.5s ease-in;
     width: 100%;
   }
+
   .buttonText {
-    font-size: 20px;
+    font-size: 16px;
     color: #343434;
     text-align: center;
-    padding: 22px;
-    width: 100%;
+    padding: 6px 7px;
+    margin: 0 3px;
     transition: all 0.5s linear;
   }
-  .buttonIcon {
-    font-size: 30px;
-    background-color: none;
-    position: absolute;
-    right: 10px;
-    top: 20px;
-  }
-
 }
 
 .betaTag {
   background-color: #3772ff;
   color: #fff;
   text-align: center;
-  padding: 4px 0px;
+  padding: 4px 10px;
   border-radius: 10px;
 }

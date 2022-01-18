@@ -7,6 +7,7 @@
 }
 
 .textContainer {
+  display: flex;
   flex: 1;
 }
 .text {
@@ -92,17 +93,22 @@
 
 @media screen and (max-width: 450px) {
   .text {
-    margin-top: 90px;
+    margin-top: 80px;
     font-size: 50px;
   }
+  .textContainer {
+    justify-content: center;
+    align-items: center;
+  }
   .paragraphContainer {
-    padding: 24px 10px;
+    padding: 4vh 2vw;
     border-radius: 25px;
     width: 95%;
+    margin-bottom: 40px;
   }
   .paragraph {
-    font-size: 20px;
-    word-spacing: 2px;
+    font-size: 16px;
+    word-spacing: 0px;
   }
   .learnMoreButton {
     font-size: 14px;
