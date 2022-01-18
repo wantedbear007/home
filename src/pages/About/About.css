@@ -66,21 +66,21 @@
   }
 }
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 765px) {
   .aboutParentContainer {
     justify-content: space-evenly;
   }
 
   .text {
     margin-top: 140px;
-    font-size: 90px;
+    font-size: 70px;
   }
   .paragraphContainer {
     padding: 70px 70px;
     border-radius: 35px;
   }
   .paragraph {
-    font-size: 25px;
+    font-size: 22px;
     word-spacing: 5px;
   }
   .learnMoreButton {

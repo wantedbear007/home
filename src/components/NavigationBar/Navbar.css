@@ -64,6 +64,12 @@
   display: none;
 }
 
+@media screen and (max-width: 850px) {
+  .pageNumber {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 780px) {
   .parentContainer {
     height: 70px;

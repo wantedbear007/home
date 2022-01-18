@@ -1,7 +1,108 @@
+.privilegeClass {
+  height: 100vh;
+}
+
 .contactParentContainer {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.text {
+  margin: 100px 10px;
+}
+
+.contactCard {
+  background-color: #d7f1ff;
+  text-align: center;
+  padding: 40px 60px;
+  border-radius: 30px;
+}
+
+.contactButton {
+  border-style: none;
+  background-color: #3772ff;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 40px;
+  margin-top: 15px;
+}
+
+.contactButton:hover {
+  box-shadow: 0px 0px 5px rgb(36, 29, 29);
+}
+
+.contactButton:active {
+  background-color: #0d54fc;
+  transition: all 0.2s linear;
+}
+
+.credits {
+  text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+  .privilegeClass {
+    height: 60vh;
   }
+
+  .text {
+    width: 100%;
+    margin-top: 170px;
+  }
+
+  .contactCard {
+    padding: 35px 55px;
+    margin: 10px 30px;
+  }
+
+  .credits {
+    margin: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .privilegeClass {
+    height: 60vh;
+  }
+
+  .contactParentContainer {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  .contactCard {
+    padding: 13px 20px;
+    margin: 1px 2px;
+    border-radius: 20px;
+  }
+  .contactLogo {
+    width: 100px;
+  }
+  .contactText {
+    font-size: 18px;
+  }
+
+  .contactButton {
+    padding: 10px 16px;
+    border-radius: 40px;
+    margin-top: 8px;
+    width: 130px;
+  }
+
+  .credits {
+    font-size: 16px;
+    margin: 0;
+    height: 20vh;
+  }
+}
