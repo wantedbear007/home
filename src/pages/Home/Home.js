@@ -5,7 +5,8 @@ import Fade from "react-reveal/Fade";
 const Home = () => {
   // resume Button Handler
   const resumeButtonHandler = () => {
-    const url = "https://shorturl.at/psxKU";
+    const url =
+      "https://drive.google.com/file/d/1vKuqIBo47lKAHEnM39pq1KCruJe2b2C1/view";
     window.open(url);
   };
 
@@ -35,7 +36,7 @@ const Home = () => {
         <div>
           <img
             alt="User"
-            src={require("../../assets/Images/60111.jpg")}
+            src={require("../../assets/Images/user.png")}
             className="image"
           />
         </div>
