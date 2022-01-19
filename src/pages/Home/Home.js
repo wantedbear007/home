@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
-import About from '../About/About'
 
 const Home = () => {
   return (

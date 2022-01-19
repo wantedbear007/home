@@ -27,6 +27,7 @@ const Projects = () => {
             </div>
           </div>
           <img
+          alt="appImage"
             src={require("../../assets/Images/appImage.png")}
             className="appImage"
           />
@@ -50,6 +51,8 @@ const Projects = () => {
             </div>
           </div>
           <img
+          alt="appImage"
+
             src={require("../../assets/Images/appImage.png")}
             className="leftAppImage"
           />
@@ -73,6 +76,8 @@ const Projects = () => {
             </div>
           </div>
           <img
+          alt="appImage"
+
             src={require("../../assets/Images/appImage.png")}
             className="appImage"
           />

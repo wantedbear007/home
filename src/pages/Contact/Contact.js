@@ -11,6 +11,7 @@ const Contact = () => {
         <div className="contactContainers">
           <div className="contactCard">
             <img
+            alt="linkedIn"
               src={require("../../assets/icons/linkedin.png")}
               className="contactLogo"
             />
@@ -22,6 +23,7 @@ const Contact = () => {
         <div className="contactContainers">
           <div className="contactCard">
             <img
+            alt="gmail"
               src={require("../../assets/icons/gmail.png")}
               className="contactLogo"
             />
@@ -33,6 +35,7 @@ const Contact = () => {
         <div className="contactContainers">
           <div className="contactCard">
             <img
+            alt="telegram"
               src={require("../../assets/icons/telegram.png")}
               className="contactLogo"
             />
@@ -44,6 +47,7 @@ const Contact = () => {
         <div className="contactContainers">
           <div className="contactCard">
             <img
+             alt="github"
               src={require("../../assets/icons/github.png")}
               className="contactLogo"
             />

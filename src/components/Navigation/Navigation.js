@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import NavBar from "../NavigationBar/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -18,7 +18,7 @@ const Navigation = () => {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/blogs" element={<Blogs />} />
