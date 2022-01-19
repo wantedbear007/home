@@ -3,6 +3,12 @@ import "./About.css";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
+  // learnMoreButtonHandler
+  const learnMoreButtonHandler = () => {
+    const url = "https://wantedbear007.github.io/site/";
+    window.open(url);
+  };
+
   return (
     <div className="aboutParentContainer">
       <div className="textContainer">
@@ -26,7 +32,9 @@ const About = () => {
             latest and greatest. I have decided to develop a career with
             programming in JavaScript and confident enough to have one.
           </p>
-          <button className="learnMoreButton">Learn more...</button>
+          <button className="learnMoreButton" onClick={learnMoreButtonHandler}>
+            Learn more...
+          </button>
         </Fade>
       </div>
     </div>

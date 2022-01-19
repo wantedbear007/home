@@ -14,7 +14,6 @@ const NavBar = () => {
           <h3 className="pageNumber">01/01</h3>
           <h3 className="betaTag">Beta</h3>
         </div>
-        {/* {(toggleMenu || screenWidth > 500) && ( */}
         <ul className="desktop-nav">
           <NavLink to="/home/" className="tabText" activeclassname="active">
             <li className="buttonText">Home</li>

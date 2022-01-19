@@ -3,6 +3,12 @@ import "./Projects.css";
 import Fade from "react-reveal/Fade";
 
 const Projects = () => {
+
+  // buttonHandler
+  const buttonHandler = (url) => {
+    window.open(`https://github.com/wantedbear007/${url}`);
+  };
+
   return (
     <div className="projectParentContainer">
       <Fade top>
@@ -23,7 +29,12 @@ const Projects = () => {
                   updated around you. It has also a night mode included into it
                   so that you can catchup at night too.
                 </p>
-                <button className="learnMoreButton">Learn more...</button>
+                <button
+                  className="learnMoreButton"
+                  onClick={() => buttonHandler('eternityNews')}
+                >
+                  Learn more...
+                </button>
               </div>
             </div>
             <img
@@ -48,7 +59,12 @@ const Projects = () => {
                   search functionality both works flawlessly without any ad’s
                   interruption.
                 </p>
-                <button className="learnMoreButton">Learn more...</button>
+                <button
+                  className="learnMoreButton"
+                  onClick={() => buttonHandler('eternityReddit')}
+                >
+                  Learn more...
+                </button>
               </div>
             </div>
             <img
@@ -72,7 +88,12 @@ const Projects = () => {
                   on this project in near future some of them are better user
                   interface along with search functionality and much more.
                 </p>
-                <button className="learnMoreButton">Learn more...</button>
+                <button
+                  className="learnMoreButton"
+                  onClick={() => buttonHandler('snapsOverload')}
+                >
+                  Learn more...
+                </button>
               </div>
             </div>
             <img
