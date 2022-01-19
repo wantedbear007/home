@@ -9,7 +9,7 @@ const Home = () => {
         <div className="nameContainer">
           <h1 className="name">Hi, I'm Bhanupratap.</h1>
           <p className="slogan">
-            I believe that user experience is what makes a product from good to
+            I believe that user experience is what makes a good product
             great.
           </p>
           <p className="designation">Front-end / UI / UX developer.</p>

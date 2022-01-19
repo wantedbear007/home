@@ -13,18 +13,18 @@ const About = () => {
       <div className="paragraphContainer">
         <Fade bottom>
           <p className="paragraph">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..",.
+            Hello there! My name is Bhanupratap Singh. I am a Business and
+            marketing student who fell in love with computers and its functions.
+            From a long period of time, I had immense curiosity with how a
+            program is developed, painting of beautiful User Interfaces having a
+            responsive and great user experience. Due to my academic reasons, I
+            never got a chance to get my hands into this but when I was
+            finishing off my initial year of collage in late 2019 Coronavirus
+            pandemic happened and I got enough time and then I started learning
+            and exploring many different concepts across different domains of
+            computers and programming. I am tinkering and teaching myself the
+            latest and greatest. I have decided to develop a career with
+            programming in JavaScript and confident enough to have one.
           </p>
           <button className="learnMoreButton">Learn more...</button>
         </Fade>
