@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/home/static/css/main.631726af.css",
-    "main.js": "/home/static/js/main.24619b28.js",
+    "main.js": "/home/static/js/main.bbbb87f2.js",
     "static/media/user.png": "/home/static/media/user.7890a4ac190c50ebf3af.png",
     "static/media/snapsoverload.png": "/home/static/media/snapsoverload.3a135ec78c121cd8a92a.png",
     "static/media/eternitynews.png": "/home/static/media/eternitynews.e1d2d20ade0b6843c6cf.png",
     "static/media/eternityreddit.png": "/home/static/media/eternityreddit.6b59fd44bdc09fcec093.png",
     "index.html": "/home/index.html",
     "main.631726af.css.map": "/home/static/css/main.631726af.css.map",
-    "main.24619b28.js.map": "/home/static/js/main.24619b28.js.map"
+    "main.bbbb87f2.js.map": "/home/static/js/main.bbbb87f2.js.map"
   },
   "entrypoints": [
     "static/css/main.631726af.css",
-    "static/js/main.24619b28.js"
+    "static/js/main.bbbb87f2.js"
   ]
 }
