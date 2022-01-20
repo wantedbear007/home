@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   // resume Button Handler
@@ -12,7 +13,7 @@ const Home = () => {
 
   // Projects button Handler
   const projectsButtonHandler = () => {
-    window.location.replace("/projects");
+    window.location.replace("projects");
   };
 
   return (
@@ -28,9 +29,11 @@ const Home = () => {
             <button className="resumeButton" onClick={resumeButtonHandler}>
               resume
             </button>
-            <button className="projectsButton" onClick={projectsButtonHandler}>
+            <NavLink to="/projects" className="tabText" activeclassname="active">
+            <button className="projectsButton">
               Projects
             </button>
+          </NavLink>
           </div>
         </div>
         <div>
