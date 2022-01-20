@@ -28,6 +28,7 @@
 .paragraph {
   font-size: 25px;
   word-spacing: 5px;
+  font-family: 'Jost', serif;
 }
 .learnMoreButton {
   font-size: 18px;
