@@ -240,6 +240,7 @@
 
   .appImage,
   .leftAppImage {
+    margin-top: 20px;
     height: 400px;
     position: relative;
     align-items: center;
